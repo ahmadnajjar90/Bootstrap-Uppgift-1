@@ -91,13 +91,6 @@ body{
   }
 }
 
-.ec-logo{
-  background: url('../images/ec-logo.png');
-  background-repeat: space;
-  background-position: center;
-  height: 28px;
-}
-
 .bg-features{
   background: url('../images/bg-Features.png');
   background-repeat: no-repeat;
