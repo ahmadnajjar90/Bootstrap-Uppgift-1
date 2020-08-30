@@ -7,7 +7,7 @@ $(document).ready(function() {
         margin: 15,
         autoplay: true,
         autoplayTimeout:2000,
-        autoplayHoverPause:true
+        autoplayHoverPause:false
     })
 
     var owl2 = $('#owl2');
@@ -16,7 +16,9 @@ $(document).ready(function() {
         loop: true,
         margin: 15,
         autoplay: true,
-        autoplayTimeout:2000,
+        autoplayTimeout:3000,
         autoplayHoverPause:true
     })
-})
+});
+
+new WOW().init();
